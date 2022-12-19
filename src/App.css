@@ -6,7 +6,7 @@
 }
 .nav {
   background-color: #292929;
-  padding: 15px 0;
+  padding: 15px 70px;
   display: flex;
 }
 
@@ -20,7 +20,7 @@
 
 .hero {
   background: url(./components/bg.jpeg);
-  padding: 70px 0;
+  padding: 70px;
 }
 
 .container {
@@ -99,9 +99,23 @@
     justify-content: center;
   }
 
+  .container {
+    padding: 0 0 20px 35px; ;
+  }
+
+  .hero{
+    padding: 70px 0;
+  }
+
   .hero-title {
     text-align: center;
   }
+
+  .movie-card {
+    width: 200px;
+    height: 200px;
+  }
+
 }
 @media screen and (max-width: 375px) {
   .hero-title {
